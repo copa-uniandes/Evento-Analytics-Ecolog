@@ -1,0 +1,12 @@
+# This is a list of dependency python packages to launch the interactive code tools, Binder and Thebe. Include only packages required for code block execution in jupyter notebooks.
+name: analytics-ecolog
+channels:
+  - conda-forge
+  - anaconda
+dependencies:
+  - ipywidgets
+  - matplotlib
+  - plotly
+  - networkx
+  - pulp
+  - numpy
